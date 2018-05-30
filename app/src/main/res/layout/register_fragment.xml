@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:hint="Enter First Name"
+        android:id="@+id/firstnameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:inputType="text"
+        android:hint="Enter Last name"
+        android:layout_below="@+id/firstnameEt"
+        android:id="@+id/lastnameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/emailEt"
+        android:layout_below="@+id/lastnameEt"
+        android:hint="Enter Emailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:inputType="numberPassword"
+        android:layout_below="@+id/emailEt"
+        android:id="@+id/passwordEt"
+        android:hint="passwordEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/signupBt"
+        android:text="Signup"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
